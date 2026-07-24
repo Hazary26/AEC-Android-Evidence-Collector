@@ -1,0 +1,57 @@
+=======================================================
+AEC Test Data Seeder
+=======================================================
+List of devices attached
+192.168.152.139:5555	device
+
+
+Confirm this is your OWN test device (LineageOS VM / Vivo Y20)? [y/N]: Seeding contacts (neutral)...
+  [contact] Alice Rahman -> OK
+  [contact] Bob Islam -> OK
+  [contact] Carol Ahmed -> OK
+  [contact] David Chowdhury -> OK
+  [contact] Emma Sultana -> OK
+  [contact] Frank Hossain -> OK
+  [contact] Grace Akter -> OK
+  [contact] Henry Molla -> OK
+
+Seeding contacts (relevant/scenario)...
+  [contact] Unknown Contact 1 -> OK
+  [contact] Agent X -> OK
+  [contact] Delivery Contact -> OK
+
+Seeding 15 neutral SMS...
+  [sms] "Happy birthday! Hope you have a great da..." -> OK
+  [sms] "Thanks for your help yesterday!..." -> OK
+  [sms] "Can you send me the meeting notes?..." -> OK
+  [sms] "Happy birthday! Hope you have a great da..." -> OK
+  [sms] "Don't forget to bring the documents...." -> OK
+  [sms] "Hey, are we still on for lunch tomorrow?..." -> OK
+  [sms] "Let's catch up this weekend...." -> OK
+  [sms] "Reminder: rent is due on the 5th...." -> OK
+  [sms] "Reminder: rent is due on the 5th...." -> OK
+  [sms] "Hey, are we still on for lunch tomorrow?..." -> OK
+  [sms] "Hey, are we still on for lunch tomorrow?..." -> OK
+  [sms] "Don't forget to bring the documents...." -> OK
+  [sms] "Let's catch up this weekend...." -> OK
+  [sms] "Happy birthday! Hope you have a great da..." -> OK
+  [sms] "Don't forget to bring the documents...." -> OK
+
+Seeding 8 scenario-relevant SMS...
+  [sms] "Package will arrive at the drop point to..." -> OK
+  [sms] "Package will arrive at the drop point to..." -> OK
+  [sms] "Meet me at the usual spot at 9pm, don't ..." -> OK
+  [sms] "Meet me at the usual spot at 9pm, don't ..." -> OK
+  [sms] "Account details: routing verified, proce..." -> OK
+  [sms] "Delete this message after reading...." -> OK
+  [sms] "Delete this message after reading...." -> OK
+  [sms] "Delete this message after reading...." -> OK
+
+Done. Ground-truth summary:
+  Neutral SMS seeded: 15
+  Relevant SMS seeded: 8
+  Neutral contacts: 8
+  Relevant contacts: 3
+
+Save these counts — this is your ground truth for labeling
+agreement / Cohen's kappa comparison later.
